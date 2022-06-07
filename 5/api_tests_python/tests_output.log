@@ -1,0 +1,24 @@
+
+==================================================
+2022-06-07 12:21:19.256357 - TEST STARTED: test_station_api_status_code2022-06-07 12:21:19.684477 - Executed GET request
+2022-06-07 12:21:19.684477 - URL: https://api.test.virta-ev.com/v4/stations
+2022-06-07 12:21:19.684477 - PARAMETERS: {'latMin': 60.164101, 'latMax': 60.164104, 'longMin': 24, 'longMax': 25}
+2022-06-07 12:21:19.684477 - RESPONSE STATUS CODE: 2002022-06-07 12:21:19.685477 - 
+2022-06-07 12:21:19.685477 - Executed assertion:
+2022-06-07 12:21:19.685477 - EXPRESSION: Status code of https://api.test.virta-ev.com/v4/stations enpoint actual value [200] is equal to expected value [200]
+2022-06-07 12:21:19.685477 - RESULT: True2022-06-07 12:21:19.695493 - 
+2022-06-07 12:21:19.695493 - TEST FINISHED: test_station_api_status_code
+2022-06-07 12:21:19.695493 - TIME ELAPSED: 0:00:00.438330
+==================================================
+2022-06-07 12:21:19.705568 - TEST STARTED: test_station_api_returned_list_length2022-06-07 12:21:20.122499 - Executed GET request
+2022-06-07 12:21:20.122499 - URL: https://api.test.virta-ev.com/v4/stations
+2022-06-07 12:21:20.122499 - PARAMETERS: {'latMin': 60.164101, 'latMax': 60.164104, 'longMin': 24, 'longMax': 25}
+2022-06-07 12:21:20.122499 - RESPONSE STATUS CODE: 200
+==================================================
+2022-06-07 12:21:20.376486 - TEST STARTED: test_data_model2022-06-07 12:21:20.692228 - Executed GET request
+2022-06-07 12:21:20.692228 - URL: https://api.test.virta-ev.com/v4/stations
+2022-06-07 12:21:20.692228 - PARAMETERS: {'latMin': 60.164101, 'latMax': 60.164104, 'longMin': 24, 'longMax': 25}
+2022-06-07 12:21:20.692228 - RESPONSE STATUS CODE: 2002022-06-07 12:21:20.694213 - 
+2022-06-07 12:21:20.694213 - Executed assertion:
+2022-06-07 12:21:20.694213 - EXPRESSION: The initial level of data type where actual value [<class 'list'>] is equal to expected value [<class 'list'>]
+2022-06-07 12:21:20.694213 - RESULT: True
